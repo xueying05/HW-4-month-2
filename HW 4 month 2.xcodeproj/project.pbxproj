@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2222A091290BA719000E11FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222A090290BA719000E11FD /* main.swift */; };
+		2222A098290BA9CE000E11FD /* Realty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222A097290BA9CE000E11FD /* Realty.swift */; };
+		2222A09A290BACC0000E11FD /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222A099290BACC0000E11FD /* Apartment.swift */; };
+		2222A09C290BAD0E000E11FD /* Depot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222A09B290BAD0E000E11FD /* Depot.swift */; };
+		2222A09E290BDEA0000E11FD /* Garage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222A09D290BDEA0000E11FD /* Garage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		2222A08D290BA719000E11FD /* HW 4 month 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW 4 month 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2222A090290BA719000E11FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2222A097290BA9CE000E11FD /* Realty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realty.swift; sourceTree = "<group>"; };
+		2222A099290BACC0000E11FD /* Apartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
+		2222A09B290BAD0E000E11FD /* Depot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depot.swift; sourceTree = "<group>"; };
+		2222A09D290BDEA0000E11FD /* Garage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				2222A090290BA719000E11FD /* main.swift */,
+				2222A097290BA9CE000E11FD /* Realty.swift */,
+				2222A099290BACC0000E11FD /* Apartment.swift */,
+				2222A09B290BAD0E000E11FD /* Depot.swift */,
+				2222A09D290BDEA0000E11FD /* Garage.swift */,
 			);
 			path = "HW 4 month 2";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2222A098290BA9CE000E11FD /* Realty.swift in Sources */,
 				2222A091290BA719000E11FD /* main.swift in Sources */,
+				2222A09E290BDEA0000E11FD /* Garage.swift in Sources */,
+				2222A09C290BAD0E000E11FD /* Depot.swift in Sources */,
+				2222A09A290BACC0000E11FD /* Apartment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

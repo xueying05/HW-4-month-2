@@ -1,7 +1,6 @@
 
+
 import Foundation
-
-
 
 //#1. Создать класс Недвижимость
 //Параметры: Площадь, цена, адрес
@@ -14,17 +13,19 @@ import Foundation
 //В классе Гараж добавить параметры - какая машина находится внутри и есть ли подвал внутри гаража
 //Доступ к свойствам ограничить модификаторами доступа
 
-var apartment1 = Apartment(square: 145.8, price: 87000, adress: "ул. Горького 345", amountOfTenants: 4)
-apartment1.getInfo()
-apartment1.priceChanging(price: 92000)
-dump(apartment1)
 
-var depot = Depot(square: 92.2, price: 67000, adress: "ул. Манаса 11", company: "Asia")
-depot.getInfo()
-depot.priceChanging(price: 56000)
-dump(depot)
-
-var garage = Garage(square: 45.5, price: 12000, adress: "ул. Айни", car: "BMW", isThereBasemant: true)
-garage.getInfo()
-garage.priceChanging(price: 15000)
-dump(garage)
+class Depot: Realty{
+    var company: String
+    var goods: [String] = []
+     init(square: Double, price: Int, adress: String, company: String) {
+        self.company = company
+        super.init(square: square, price: price, adress: adress)
+    }
+   
+    override func getInfo() {
+        goods.append("Мыломойка")
+        goods.append("Продукты")
+        goods.append("Концтовары")
+        print("Площадь недвижимости - \(square),  адрес - \(adress), принадлежмт к компании \(company), виды товаров в наличии: \(goods) ")
+    }
+}
